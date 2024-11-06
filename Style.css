@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.main-container{
+    width: 1400px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h1{
+    font-size: 50px;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style-type: none;
+    padding:10px 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+ul li:hover{
+    background-color: #7EDAD2;
+    color: white;
+    border-radius: 10px;
+}
+.right{
+    width: 50%;
+    position: relative;
+}
+.img-bg{
+    height: 600px;
+    min-width: 700px;
+    background-color: #7EDAD2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    position: absolute;
+    right: 0;
+}
+.shape{
+    height: 420px;
+    width: 420px;
+    transform: rotate(45deg);
+    border-radius: 40px;
+    border:30px solid #abe9e44b;
+    position: absolute;
+}
+.shape1{
+    height: 300px;
+    width: 300px;
+    transform: rotate(45deg);
+    border-radius: 40px;
+    border:30px solid #abe9e44b;
+    position: absolute;
+}
+
+.img img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 700px;
+}
+.container{
+    display: flex;
+    margin-top: 50px;
+}
+.left{
+    width: 50%;
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.smart{
+    font-size:64px;
+    font-weight: 600;
+
+}
+.smart span{color: #7EDAD2;}
+.grow{
+    font-size: 32px;
+    color: #909090;
+}
+button{
+    background-color: #7EDAD2;
+    font-size: 22px;
+    color: white;
+    border: none;
+    padding:15px 20px;
+}
+.details{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.exp{
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.rate{
+    font-size: 24px;
+    font-weight: 900;
+}
+.det{
+    color: #909090;
+}
+.planning{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+
+}
+.box1{
+    width: 20%;
+}
+.business{
+    font-size: 28px;
+    line-height: 50px;
+}
+.lorem{
+    color: #909090;
+    font-size: 20px;
+}
